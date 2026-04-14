@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Keep scripts and sources as text with LF endings
+*.py text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+Makefile text eol=lf

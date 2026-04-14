@@ -1,0 +1,48 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+bin/
+*.o
+*.obj
+*.so
+*.a
+*.out
+
+# Local binaries from old workflow
+2048_cpp
+a.out
+
+# Runtime logs / temp files
+*.log
+*.tmp
+*.bak
+
+# Project artifacts (keep folders in git)
+artifacts/checkpoints/*
+artifacts/logs/*
+!artifacts/checkpoints/.gitkeep
+!artifacts/logs/.gitkeep
+
+# Data outputs (keep folder structure)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
