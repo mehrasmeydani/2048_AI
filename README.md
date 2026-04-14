@@ -154,3 +154,7 @@ Sources:
 ## Contributing
 
 See `CONTRIBUTING.md` for local workflow, style, and pull request guidance.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
